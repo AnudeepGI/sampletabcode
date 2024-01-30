@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding: 20px;
 }
 
 .App-logo {
@@ -35,4 +36,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.tabs div {
+  float: left;
+  border-bottom: 1px solid gray;
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+.content {
+  clear: both;
+  overflow: hidden;
+  text-align: left;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
 }
